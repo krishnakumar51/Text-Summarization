@@ -18,7 +18,7 @@ Text summarization is the process of distilling the most important information f
 
 2. **Model Loading**: Load the pre-trained Pegasus model using the `AutoModelForSeq2SeqLM` class from the `transformers` library.
 
-3. **Summarization**: Use the loaded model to generate summaries for your input text. You can adjust parameters such as `length_penalty` and `num_beams` for different summarization styles.
+3. **Summarization**: Use the loaded model to generate summaries for your input text.
 
 4. **Evaluation**: Evaluate the quality of the generated summaries using metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation).
 
