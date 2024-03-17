@@ -14,17 +14,15 @@ Text summarization is the process of distilling the most important information f
 
 ## Usage
 
-1. **Installation**: Ensure you have Python 3.x installed on your system. Install the required dependencies by running `pip install -r requirements.txt`.
+1. **Data Preparation**: Prepare your text data for summarization. Ensure it is in a suitable format compatible with Pegasus input requirements.
 
-2. **Data Preparation**: Prepare your text data for summarization. Ensure it is in a suitable format compatible with Pegasus input requirements.
+2. **Model Loading**: Load the pre-trained Pegasus model using the `AutoModelForSeq2SeqLM` class from the `transformers` library.
 
-3. **Model Loading**: Load the pre-trained Pegasus model using the `AutoModelForSeq2SeqLM` class from the `transformers` library.
+3. **Summarization**: Use the loaded model to generate summaries for your input text. You can adjust parameters such as `length_penalty` and `num_beams` for different summarization styles.
 
-4. **Summarization**: Use the loaded model to generate summaries for your input text. You can adjust parameters such as `length_penalty` and `num_beams` for different summarization styles.
+4. **Evaluation**: Evaluate the quality of the generated summaries using metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation).
 
-5. **Evaluation**: Evaluate the quality of the generated summaries using metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation).
-
-6. **Deployment**: Once satisfied with the performance, deploy the model for real-world applications, such as summarizing news articles, customer reviews, or legal documents.
+5. **Deployment**: Once satisfied with the performance, deploy the model for real-world applications, such as summarizing news articles, customer reviews, or legal documents.
 
 ## Credits
 
